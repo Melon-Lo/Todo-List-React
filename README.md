@@ -5,7 +5,7 @@
 3. Enter the directory through the terminal, and enter:
    `npm run start`
 4. If you see this messege, open the browser to go to the web address below.
-   `Listening on http://localhost:3000`
+   `Listening on http://localhost:3002`
 5. If you want to quit, enter:
    `ctrl + c`
 
