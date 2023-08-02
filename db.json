@@ -11,19 +11,9 @@
       "id": 5
     },
     {
-      "title": "Learn react",
+      "title": "Learn useEffect",
       "isDone": false,
       "id": 6
-    },
-    {
-      "title": "learn something",
-      "isDone": false,
-      "id": 7
-    },
-    {
-      "title": "sdf",
-      "isDone": false,
-      "id": 9
     }
   ]
 }
