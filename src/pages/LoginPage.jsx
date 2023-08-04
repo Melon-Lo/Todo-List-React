@@ -56,7 +56,7 @@ const LoginPage = () => {
       }
       const result = await checkPermission(authToken);
       if (result) {
-        navigate('/todos');
+        navigate('/todo');
       }
     };
 
