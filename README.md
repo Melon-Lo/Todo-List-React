@@ -1,3 +1,5 @@
+![Cover image](https://github.com/Melon-Lo/Todo-List-React/blob/main/cover.jpg?raw=true)
+
 ### How to use
 
 1. Install node.js and npm.
@@ -8,6 +10,7 @@
    `Listening on http://localhost:3002`
 5. If you want to quit, enter:
    `ctrl + c`
+6. Or visit https://melon-lo.github.io/Todo-List-React/ .
 
 ### Development Tools
 
