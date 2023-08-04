@@ -107,21 +107,15 @@ const TodoPage = () => {
 
   const handleSave = async ({ id, title }) => {
     try {
-      const newTodo = await patchTodo({
+      await patchTodo({
         id,
         title,
       });
       setTodos((prevTodos) => {
         return prevTodos.map((todo) => {
-          if (todo.id === newTodo.id) {
-            return {
-              ...todo,
-              title,
-              isEdit: false,
-              idDone: newTodo.isDone
-            };
+          if (todo.id === id) {
+            return { ...todo, title, isEdit: false };
           }
-
           return todo;
         });
       });

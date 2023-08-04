@@ -105,8 +105,8 @@ const StyledTaskItem = styled.div`
 const TodoItem = ({ todo, onToggleDone, onSave, onDelete, onChangeMode }) => {
   const inputRef = useRef(null);
   const handleKeyDown = (event) => {
-    if(inputRef.current.value.length > 0 && event.key === 'Enter') {
-      onSave?.({ id: todo.id, title: inputRef.current.value })
+    if (inputRef.current.value.length > 0 && event.key === 'Enter') {
+      onSave?.({ id: todo.id, title: inputRef.current.value });
     }
 
     if(event.key === 'Escape') {
