@@ -1,5 +1,4 @@
 import axios from 'axios';
-
 const authURL = 'https://todo-list.alphacamp.io/api/auth';
 
 export const login = async ({ username, password }) => {
